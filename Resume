@@ -24,32 +24,7 @@
 <body>
  <div id ="text1">
   <span>Resume</span>
-  <div id ="res">   <p><h2>Sonia Singla</h2></p> <p id="text1"> </p><p id ="text1"> </p><p id ="text1">Birmingham</p>
-  <p id="text2"><h3><i> Objective</i></h3></p><p id="text2">Looking for a job where I can apply my skills acquired during studies or Internship.</p>
-  <iframe
-  width="200"
-  height="250"
-  frameborder="0" style="border:1px solid #FF0000;float:right;margin-right:100px;"
-  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBHBIO5ueL0Y2aHfKVMgGJU0yKspp1dBzc 
-    &q=Birmingham+U.K" allowfullscreen>
-</iframe>
-  <p id="text2"><h3><i>Education Qualification</i></h3></p>
-  <ul style="list-style-image:url('sq.jpg');">
-       <li  ><p>University of Leicester                MSc in Bioinformatics                  2009- 2010</p></li>
-       <li ><p>Bangalore University                   MSc in Biotechnology                   2001-2003</p></li>
-       <li ><p>Himachal Pradesh University            BSc Medical                            1999-2001</p></li>
-</ul>
-
-<p id="text2" ><h3><i>Internship</i></h3></p>
-<ul style="list-style-image:url('sq.jpg');" >
-  <li>Project Support Assistant at RugBugs, U.K
-  </li>
-  <li>Social Media Internship at Ace Overseas Education Consultant, U.K</li>
-  <li>Web development Internship at Student Zone</li>
-</ul>
-  </div>
-
-
+  
 
  </div>
 </body>
