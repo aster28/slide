@@ -3,7 +3,8 @@
 <head>
 <script>
  $(document).ready(function(){
-  $('div').slideDown('slow');
+  $('
+  #text1').slideDown('slow');
  
  });
 </script>
@@ -14,7 +15,7 @@
    }
    
    #text1{
-     width: 10px;
+     width: 100px;
      border-radius:2px;
      height:5px;
      
