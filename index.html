@@ -1,9 +1,13 @@
+
 <!doctype html>
 <html>
 <head>
 <script>
  $(document).ready(function(){
-  $('#text1').slideDown('slow');
+  $('#text1').click(function(){
+  
+    $('#text2').slideDown("slow");
+  });
  
  });
 </script>
@@ -26,6 +30,11 @@
   <span>Resume</span>
   
 
+ </div>
+ <div id ="text2">
+   
+    
+ 
  </div>
 </body>
 
