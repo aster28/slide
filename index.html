@@ -21,6 +21,11 @@
             
             div.animate({width: 200}, "slow", startAnimation);
         }
+  $('button').click(function() {
+    	var toAdd = $("input[name=message]").val();
+        $('#messages').append("<p>"+toAdd+"</p>");
+    });
+});
   div.animate(div.fadeOut("slow"));
    div.animate(div.fadeIn("slow"));           
    startAnimation();
@@ -32,7 +37,14 @@
      text-align:center;
     
    }
- #text6{
+ #text7{
+   
+   background-color: #e5eecc;
+   border: solid 1px #c3c3c3;
+   top:500px;
+   position:absolute;
+ }
+  #text6{
    width:100px;
    height: 50px;
    background-color: #e5eecc;
@@ -40,7 +52,6 @@
   top:700px;
   position:absolute;
  }
- 
  
    #text1,h2{
           text-align:center;
@@ -106,7 +117,14 @@
     
   
 </div>
- 
+<div id ="text7">
+    <form>
+        MESSAGE: <input type="text" name="message" value="Type your comment here">
+        </form>
+        <button>Add!</button><br/>
+        <div id="messages"></div>
+
+</div>
  
 </body>
 
