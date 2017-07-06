@@ -21,8 +21,10 @@
             
             div.animate({width: 200}, "slow", startAnimation);
         }
-  div.animate(div.fadeOut("slow"), startAnimation);
-   div.animate(div.fadeIn("slow"), startAnimation);
+  div.animate(div.fadeOut("slow"));
+   div.animate(div.fadeIn("slow"));
+  $("#menu").accordion({collapsible: true, active: false});
+});
  //$('button').click(function() {
    // 	var toAdd = $("input[name=message]").val();
       //  $('#messages').append("<p>"+toAdd+"</p>");
@@ -125,7 +127,18 @@
         <div id="messages"></div>
 
 </div>-->
- 
+ <div id="menu">
+  
+            <h3>Professional Experience</h3>
+            <div>
+                <p>Research Assistant at IARI, New Delhi for two years.</p>
+            </div>
+            <h3>References</h3>
+            <div>
+                <p>Available on Request</p>
+            </div> 
+  
+</div>
 </body>
 
 </html>
