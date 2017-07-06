@@ -10,7 +10,17 @@
   $("#text3").click(function(){
         $("#text4").slideUp("slow");
     });
- 
+  var div = $("#text6");
+        startAnimation();
+        function startAnimation(){
+            
+            div.animate({width: 500}, "slow");
+            div.css("background-color", "green");  
+          
+            div.fadeOut("slow");
+            div.animate({width: 200}, "slow", startAnimation);
+        }
+    });
  });
 </script>
 <style>
@@ -18,6 +28,13 @@
      text-align:center;
     
    }
+ #text6{
+   width:100;
+   background-color: #e5eecc;
+ 
+ }
+ 
+ 
    #text1,h2{
           text-align:center;
     
@@ -29,7 +46,7 @@
  #text4{
     height:50px;
  
- }
+}
    #text4,#text3{
     
     text-align: center;
@@ -78,7 +95,10 @@
 </ul>
   </div>
 
- 
+ <div id ="text6">
+    
+  
+</div>
  
  
 </body>
