@@ -19,13 +19,14 @@
             div.animate({width: 500}, "slow");
             div.css("background-color", "#e5eecc");  
           
-             
+              
             div.animate({width: 200}, "slow", startAnimation);
+          div.animate(div.hide());
        }
- 
+      div.animate(div.show());
    //div.animate(div.fadeToggle("slow"));
-    div.animate(div.hide());
-    div.animate(div.show());
+  
+  
 
  //$('button').click(function() {
    // 	var toAdd = $("input[name=message]").val();
